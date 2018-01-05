@@ -1,0 +1,33 @@
+
+files = {'~/Music/black_alien.mp3'};
+numfiles = length (files);
+
+data = cell(1,numfiles);
+corr = cell(2,numfiles);
+
+time_sec = 10;
+
+
+for ff=1:numfiles
+    [audio_data,Fs] = audioread (files{ff});
+    
+    data_size = Fs * time_sec;
+    data{ff} = audio_data(1:data_size,1);
+end
+
+
+
+i = 0;
+
+figure;
+for ff1=1:numfiles
+    for ff2=1:numfiles
+         i = i + 1;
+        [acor,lag] = xcorr(data{ff1},data{ff2});
+         acor =  acor / max(abs(acor));
+         corr{i} = {acor;lag};
+     
+         subplot (3,3,i);
+         plot (corr{i}{2},corr{i}{1});
+    end
+end

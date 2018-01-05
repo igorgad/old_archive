@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%% OR TEST %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 1  1  1  1  1  1  1  1 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.19091 | 0.4419 | 0.68254
+CCC-PKS min|avg|max: 0.17949 | 0.43202 | 0.66667
+SAC CCC min|avg|max: 0.18803 | 0.45267 | 0.73016
+SCORE per NR 4: 0.3091 | NR 10: 0.5600 | NR 15: 0.6232 
+CLEVEL per NR 4: 0.1099 | NR 10: 0.2182 | NR 15: 0.3694 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 2  2  2  2  2  2  2  2 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.3 | 0.52213 | 0.7619
+CCC-PKS min|avg|max: 0.28205 | 0.52748 | 0.73913
+SAC CCC min|avg|max: 0.28182 | 0.53737 | 0.74603
+SCORE per NR 4: 0.3455 | NR 10: 0.6800 | NR 15: 0.7246 
+CLEVEL per NR 4: 0.1187 | NR 10: 0.3017 | NR 15: 0.6384 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 3  3  3  3  3  3  3  3 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.32727 | 0.56254 | 0.77778
+CCC-PKS min|avg|max: 0.36752 | 0.55951 | 0.73016
+SAC CCC min|avg|max: 0.36752 | 0.57614 | 0.77143
+SCORE per NR 4: 0.4364 | NR 10: 0.6800 | NR 15: 0.7536 
+CLEVEL per NR 4: 0.1440 | NR 10: 0.3472 | NR 15: 0.8958 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 
+NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.34545 | 0.58333 | 0.8254
+SAC CCC min|avg|max: 0.34545 | 0.59314 | 0.81159
+SCORE per NR 4: 0.4364 | NR 10: 0.7467 | NR 15: 0.8116 
+CLEVEL per NR 4: 0.1494 | NR 10: 0.4466 | NR 15: 1.1320 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 5  5  5  5  5  5  5  5 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.33636 | 0.58401 | 0.80952
+CCC-PKS min|avg|max: 0.35897 | 0.59158 | 0.80952
+SAC CCC min|avg|max: 0.33333 | 0.60232 | 0.7971
+SCORE per NR 4: 0.4273 | NR 10: 0.7200 | NR 15: 0.7971 
+CLEVEL per NR 4: 0.1600 | NR 10: 0.5427 | NR 15: 1.3871 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 6  6  6  6  6  6  6  6 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.37273 | 0.59656 | 0.80952
+CCC-PKS min|avg|max: 0.36752 | 0.60702 | 0.79365
+SAC CCC min|avg|max: 0.37607 | 0.6096 | 0.7971
+SCORE per NR 4: 0.4545 | NR 10: 0.7733 | NR 15: 0.7971 
+CLEVEL per NR 4: 0.1829 | NR 10: 0.6293 | NR 15: 1.6214 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 7  7  7  7  7  7  7  7 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.37273 | 0.60489 | 0.80952
+CCC-PKS min|avg|max: 0.35897 | 0.59965 | 0.80952
+SAC CCC min|avg|max: 0.38462 | 0.61023 | 0.80952
+SCORE per NR 4: 0.4545 | NR 10: 0.7333 | NR 15: 0.7826 
+CLEVEL per NR 4: 0.1893 | NR 10: 0.6804 | NR 15: 1.8602 
+
+%%%%%%%%%%%%%%%%%% inlrRange TEST %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+filter_size = 3; inlrRange = 1; nPeaks = 3
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.30769 | 0.54316 | 0.76812
+CCC-PKS min|avg|max: 0.34545 | 0.56461 | 0.77778
+SAC CCC min|avg|max: 0.34545 | 0.56461 | 0.77778
+SCORE per NR 4: 0.4364 | NR 10: 0.6800 | NR 15: 0.7681 
+CLEVEL per NR 4: 0.0898 | NR 10: 0.1622 | NR 15: 0.3482 
+
+filter_size = 3; inlrRange = 2; nPeaks = 3;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.32479 | 0.56522 | 0.77143
+CCC-PKS min|avg|max: 0.33636 | 0.58359 | 0.78571
+SAC CCC min|avg|max: 0.37273 | 0.6045 | 0.8254
+SCORE per NR 4: 0.4364 | NR 10: 0.7067 | NR 15: 0.7826 
+CLEVEL per NR 4: 0.1335 | NR 10: 0.3171 | NR 15: 0.7089
+
+filter_size = 3; inlrRange = 3; nPeaks = 3;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.34545 | 0.56294 | 0.79365
+CCC-PKS min|avg|max: 0.33636 | 0.58354 | 0.7619
+SAC CCC min|avg|max: 0.36752 | 0.61013 | 0.8254
+SCORE per NR 4: 0.4364 | NR 10: 0.7200 | NR 15: 0.8116 
+CLEVEL per NR 4: 0.1460 | NR 10: 0.3906 | NR 15: 0.9536 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.34545 | 0.58333 | 0.8254
+SAC CCC min|avg|max: 0.34545 | 0.59314 | 0.81159
+SCORE per NR 4: 0.4364 | NR 10: 0.7467 | NR 15: 0.8116 
+CLEVEL per NR 4: 0.1494 | NR 10: 0.4466 | NR 15: 1.1320 
+
+filter_size = 3; inlrRange = 5; nPeaks = 3;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.34188 | 0.56328 | 0.78261
+CCC-PKS min|avg|max: 0.35897 | 0.58054 | 0.77778
+SAC CCC min|avg|max: 0.33333 | 0.56405 | 0.78261
+SCORE per NR 4: 0.4455 | NR 10: 0.6933 | NR 15: 0.7826 
+CLEVEL per NR 4: 0.1566 | NR 10: 0.5006 | NR 15: 1.2627 
+
+%%%%%%%%%%%%%%%%%% npeaks TEST %%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+filter_size = 3; inlrRange = 4; nPeaks = 1;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.35897 | 0.57385 | 0.79365
+SAC CCC min|avg|max: 0.37607 | 0.59082 | 0.7971
+SCORE per NR 4: 0.4000 | NR 10: 0.6933 | NR 15: 0.7971 
+CLEVEL per NR 4: 0.7467 | NR 10: 0.8471 | NR 15: 1.1564 
+
+filter_size = 3; inlrRange = 4; nPeaks = 2;
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.35043 | 0.58929 | 0.81159
+SAC CCC min|avg|max: 0.35043 | 0.59897 | 0.81159
+SCORE per NR 4: 0.4364 | NR 10: 0.7200 | NR 15: 0.8116 
+CLEVEL per NR 4: 0.2164 | NR 10: 0.4683 | NR 15: 0.9956 
+
+filter_size = 3; inlrRange = 4; nPeaks = 3
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.34545 | 0.58333 | 0.8254
+SAC CCC min|avg|max: 0.34545 | 0.59314 | 0.81159
+SCORE per NR 4: 0.4364 | NR 10: 0.7467 | NR 15: 0.8116 
+CLEVEL per NR 4: 0.1494 | NR 10: 0.4466 | NR 15: 1.1320 
+
+filter_size = 3; inlrRange = 4; nPeaks = 4
+Results. Filter: 3 Overlap: 4  4  4  4  4  4  4  4 NR: 3   4   6   8  10  14  15  20
+CCC-HST min|avg|max: 0.35043 | 0.57114 | 0.79365
+CCC-PKS min|avg|max: 0.35455 | 0.57444 | 0.76812
+SAC CCC min|avg|max: 0.38462 | 0.60111 | 0.76812
+SCORE per NR 4: 0.4364 | NR 10: 0.7333 | NR 15: 0.7681 
+CLEVEL per NR 4: 0.1193 | NR 10: 0.4449 | NR 15: 1.1868 
+
+
+
+
+
+
+
+
+
+
+

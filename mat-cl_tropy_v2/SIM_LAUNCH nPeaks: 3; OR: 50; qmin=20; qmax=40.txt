@@ -1,0 +1,64 @@
+
+
+Results. Filter: 1, Overlap: 50, inlrRange: 3, nPeaks: 3 
+SAC CCC min|avg|max: 0.09 | 0.27 | 0.42 
+SAC CLV min|avg|max: 0.17 | 0.29 | 0.67 
+300: 0.14 | 800: 0.32 | 1250: 0.42 
+KMS CCC min|avg|max: 0.08 | 0.20 | 0.42 
+KMS CLV min|avg|max: 0.54 | 0.80 | 1.00 
+300: 0.14 | 800: 0.21 | 1250: 0.33 
+HST CCC min|avg|max: 0.14 | 0.27 | 0.50 
+HST CLV min|avg|max: 0.38 | 0.52 | 0.81 
+300: 0.14 | 800: 0.26 | 1250: 0.42 
+PKS CCC min|avg|max: 0.09 | 0.25 | 0.42 
+PKS CLV min|avg|max: 0.16 | 0.28 | 0.61 
+300: 0.09 | 800: 0.32 | 1250: 0.42 
+COR min|avg|max: 0.14 | 0.28 | 0.42 
+
+
+Results. Filter: 3, Overlap: 50, inlrRange: 3, nPeaks: 3 
+SAC CCC min|avg|max: 0.09 | 0.30 | 0.45 
+SAC CLV min|avg|max: 0.19 | 0.29 | 0.68 
+300: 0.14 | 800: 0.32 | 1250: 0.42 
+KMS CCC min|avg|max: 0.00 | 0.22 | 0.45 
+KMS CLV min|avg|max: 0.62 | NaN | 1.00 
+300: 0.14 | 800: 0.26 | 1250: 0.25 
+HST CCC min|avg|max: 0.10 | 0.29 | 0.42 
+HST CLV min|avg|max: 0.32 | 0.50 | 0.71 
+300: 0.18 | 800: 0.32 | 1250: 0.42 
+PKS CCC min|avg|max: 0.09 | 0.29 | 0.55 
+PKS CLV min|avg|max: 0.16 | 0.25 | 0.70 
+300: 0.09 | 800: 0.26 | 1250: 0.50 
+COR min|avg|max: 0.15 | 0.32 | 0.50 
+
+
+Results. Filter: 6, Overlap: 50, inlrRange: 3, nPeaks: 3 
+SAC CCC min|avg|max: 0.14 | 0.30 | 0.55 
+SAC CLV min|avg|max: 0.14 | 0.28 | 0.70 
+300: 0.18 | 800: 0.26 | 1250: 0.42 
+KMS CCC min|avg|max: 0.06 | 0.21 | 0.45 
+KMS CLV min|avg|max: 0.64 | 0.86 | 1.00 
+300: 0.18 | 800: 0.21 | 1250: 0.33 
+HST CCC min|avg|max: 0.08 | 0.25 | 0.42 
+HST CLV min|avg|max: 0.30 | 0.48 | 0.71 
+300: 0.14 | 800: 0.26 | 1250: 0.25 
+PKS CCC min|avg|max: 0.09 | 0.26 | 0.42 
+PKS CLV min|avg|max: 0.13 | 0.25 | 0.57 
+300: 0.09 | 800: 0.26 | 1250: 0.33 
+COR min|avg|max: 0.10 | 0.30 | 0.42 
+
+
+Results. Filter: 10, Overlap: 50, inlrRange: 3, nPeaks: 3 
+SAC CCC min|avg|max: 0.23 | 0.37 | 0.55 
+SAC CLV min|avg|max: 0.15 | 0.26 | 0.57 
+300: 0.23 | 800: 0.42 | 1250: 0.50 
+KMS CCC min|avg|max: 0.14 | 0.30 | 0.55 
+KMS CLV min|avg|max: 0.55 | 0.79 | 1.00 
+300: 0.23 | 800: 0.37 | 1250: 0.50 
+HST CCC min|avg|max: 0.08 | 0.29 | 0.50 
+HST CLV min|avg|max: 0.21 | 0.41 | 0.53 
+300: 0.23 | 800: 0.32 | 1250: 0.33 
+PKS CCC min|avg|max: 0.14 | 0.31 | 0.50 
+PKS CLV min|avg|max: 0.09 | 0.21 | 0.50 
+300: 0.18 | 800: 0.32 | 1250: 0.50 
+COR min|avg|max: 0.10 | 0.32 | 0.50 

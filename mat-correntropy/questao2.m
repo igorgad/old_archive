@@ -1,0 +1,30 @@
+%questao 1 lista PDS
+clear;
+close all;
+
+n = -50:1:50;
+x1 = sin (0.125*pi*n);
+x2 = sin (0.5*pi*n);
+
+n1 = deamostras (n, 4);
+n2 = deamostras (n, 4);
+
+y1 = deamostras (x1, 4);
+y2 = deamostras (x2, 4);
+
+figure;
+subplot (2, 2, 1);
+plot (n, x1);
+title ('sin(0.125*pi*n)');
+
+subplot (2,2,2);
+plot (n1, y1);
+title ('dec (x1,4)');
+
+subplot (2, 2, 3);
+plot (n, x2);
+title ('sin(0.5*pi*n)');
+
+subplot (2,2,4);
+plot (n2, y2);
+title ('dec (x2,4)');

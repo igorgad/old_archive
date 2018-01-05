@@ -1,0 +1,74 @@
+
+DATASET CONCOR:
+
+Filter size: 1, Overlap Ratio: 1
+CCC min|avg|max: 0.17778 | 0.24736 | 0.35821
+Sil min|avg|max: 0.18254 | 0.26179 | 0.4
+COR min|avg|max: 0.17778 | 0.24998 | 0.28889
+
+Filter size: 2, Overlap Ratio: 1
+CCC min|avg|max: 0.15556 | 0.23688 | 0.37778
+Sil min|avg|max: 0.17692 | 0.26083 | 0.4
+COR min|avg|max: 0.18261 | 0.25025 | 0.30357
+
+Filter size: 3, Overlap Ratio: 1
+CCC min|avg|max: 0.15957 | 0.27181 | 0.42222
+Sil min|avg|max: 0.14894 | 0.24733 | 0.36508
+COR min|avg|max: 0.23333 | 0.2744 | 0.32836
+
+Filter size: 4, Overlap Ratio: 1
+CCC min|avg|max: 0.16031 | 0.26836 | 0.44643
+Sil min|avg|max: 0.14504 | 0.25829 | 0.42222
+COR min|avg|max: 0.20253 | 0.272 | 0.34328
+
+Filter size: 5, Overlap Ratio: 1
+CCC min|avg|max: 0.15873 | 0.26669 | 0.37778
+Sil min|avg|max: 0.16667 | 0.24829 | 0.4
+COR min|avg|max: 0.20253 | 0.25715 | 0.32836
+
+Filter size: 6, Overlap Ratio: 1
+CCC min|avg|max: 0.14286 | 0.26315 | 0.4
+Sil min|avg|max: 0.15267 | 0.25143 | 0.40351
+COR min|avg|max: 0.18987 | 0.25993 | 0.34328
+
+Filter size: 7, Overlap Ratio: 1
+CCC min|avg|max: 0.11702 | 0.26346 | 0.39683
+Sil min|avg|max: 0.15957 | 0.23739 | 0.4
+COR min|avg|max: 0.18987 | 0.24711 | 0.32836
+
+Filter size: 8, Overlap Ratio: 1
+CCC min|avg|max: 0.12698 | 0.25504 | 0.4127
+Sil min|avg|max: 0.12766 | 0.24466 | 0.42857
+COR min|avg|max: 0.16031 | 0.24319 | 0.32836
+
+Filter size: 9, Overlap Ratio: 1
+CCC min|avg|max: 0.11905 | 0.25237 | 0.42222
+Sil min|avg|max: 0.12766 | 0.22974 | 0.42222
+COR min|avg|max: 0.16794 | 0.23485 | 0.31343
+
+Filter size: 10, Overlap Ratio: 1
+CCC min|avg|max: 0.13492 | 0.24138 | 0.36842
+Sil min|avg|max: 0.11111 | 0.23459 | 0.4
+COR min|avg|max: 0.17557 | 0.24066 | 0.32143
+
+Filter size: 20, Overlap Ratio: 1
+CCC min|avg|max: 0.087302 | 0.18961 | 0.33929
+Sil min|avg|max: 0.079365 | 0.16693 | 0.28571
+COR min|avg|max: 0.1 | 0.18094 | 0.25
+
+DATASET BACH10
+
+Filter size: 1, Overlap Ratio: 1
+CCC min|avg|max: 0 | 0.77566 | 1
+Sil min|avg|max: 0 | 0.59444 | 1
+COR min|avg|max: 0 | 0.45741 | 0.9
+
+Filter size: 3, Overlap Ratio: 1
+CCC min|avg|max: 0 | 0.77487 | 1
+Sil min|avg|max: 0 | 0.57407 | 1
+COR min|avg|max: 0 | 0.64444 | 1
+
+Filter size: 5, Overlap Ratio: 1
+CCC min|avg|max: 0 | 0.71481 | 1
+Sil min|avg|max: 0 | 0.52222 | 1
+COR min|avg|max: 0 | 0.57222 | 1
